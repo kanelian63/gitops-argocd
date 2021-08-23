@@ -4,8 +4,8 @@ metadata:
   name: mynginx
 spec:
   ports:
-  - port: 30080
+  - port: 80
     protocol: TCP
-    targetPort: 80
+    targetPort: 30080
   selector:
     run: mynginx
